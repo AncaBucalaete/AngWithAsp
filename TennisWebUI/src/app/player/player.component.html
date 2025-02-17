@@ -1,0 +1,16 @@
+<div>
+    <h2>Create Player</h2>
+    <form (ngSubmit)="createPlayer()">
+      <input [(ngModel)]="newPlayer.firstName" placeholder="First Name" name="firstName" required />
+      <input [(ngModel)]="newPlayer.lastName" placeholder="Last Name" name="lastName" required />
+      <input [(ngModel)]="newPlayer.email" placeholder="Email" name="email" required />
+      <input [(ngModel)]="newPlayer.passwordHash" placeholder="Password" name="passwordHash" required type="password" />
+      
+      <input [(ngModel)]="newPlayer.dateOfBirth" placeholder="Date of Birth" name="dateOfBirth" type="date" />
+      
+      <input [(ngModel)]="newPlayer.level" placeholder="Level" name="level" required />
+      <input [(ngModel)]="newPlayer.profileImage" placeholder="Profile Image URL" name="profileImage" />
+  
+      <button type="submit">Create Player</button>
+    </form>
+  </div>

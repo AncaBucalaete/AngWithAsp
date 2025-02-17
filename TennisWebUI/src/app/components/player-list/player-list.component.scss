@@ -1,0 +1,60 @@
+@import '../../../common.scss';
+
+header {
+  .module-title {
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+      color: $planner-font-color1;
+      letter-spacing: 0.54px;
+      padding-bottom: 10px;
+    }
+
+    .underline {
+      background: $planner-element-bg-color;
+      border-radius: 5px;
+      width: 52px;
+      height: 4px;
+    }
+  }
+}
+
+.players-detail-wrapper {
+  .player-operations {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    .planner-player-search.search-wrapper {
+      width: 190px;
+      margin-right: 16px;
+
+      .e-input-group {
+        span.search-icon {
+          cursor: default;
+
+          &::before {
+            content: '\e993';
+          }
+        }
+      }
+    }
+  }
+
+  .player-display {
+    margin-top: 17px;
+
+    .e-grid {
+      .e-gridcontent {
+        tr.e-row {
+          td.e-rowcell {
+            .player-name {
+              color: $planner-element-bg-color;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

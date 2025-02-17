@@ -1,0 +1,25 @@
+<div class="planner-wrapper">
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <ul>
+      <li><a routerLink="/">🏠 Dashboard</a></li>
+      <li><a routerLink="/players">🎾 Players</a></li>
+      <li><a routerLink="/coaches">👨‍🏫 Coaches</a></li>
+      <li><a routerLink="/schedule">📅 Schedule</a></li>
+      <li><a routerLink="/settings">⚙ Settings</a></li>
+    </ul>
+  </div>
+  <div style="display: flex; flex-direction: column; width: 100%;">
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+      <div class="name-container">
+        <span class="clinic-image icon-logo"></span>
+        <h1 class='clinic-name'> Tennis Academy Planner</h1>
+      </div>
+      <div class='logout-container'>
+        <div class="logout-icon-container"><span class="icon-logout logout-image"></span></div>
+        <mat-icon>logout</mat-icon> Logout
+      </div>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+</div>

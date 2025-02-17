@@ -1,0 +1,40 @@
+ <div class="dialog-container">
+    <h2 mat-dialog-title class="dialog-title"> <p>🎾 Add New Coach</p></h2>
+  
+    <form [formGroup]="coachForm" (ngSubmit)="createCoach()" class="dialog-content">
+      <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="First Name" formControlName="firstName" required />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Last Name" formControlName="lastName" required />
+      </mat-form-field>
+   
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Email" formControlName="email" required />
+      </mat-form-field>
+
+<!--       <mat-form-field appearance="outline">
+        <mat-label>Profile Picture</mat-label>
+        <input type="file" placeholder="Profile Picture" (change)="onFileChange($event)" accept="image/*">
+      </mat-form-field> -->
+      <div class="custom-file-upload">
+        <label>Profile Picture</label>
+        <input type="file" placeholder="Profile Picture" (change)="onFileChange($event)" accept="image/*">
+      </div>
+
+      <div *ngIf="selectedImage">
+        <p>Preview:</p>
+        <img [src]="selectedImage" alt="Profile Picture" width="100">
+      </div>
+
+      <div class="dialog-actions">
+        <button mat-button type="button" (click)="close()">Cancel</button>
+        <button mat-raised-button color="primary" type="submit" [disabled]="coachForm.invalid">Save</button>
+      </div>
+    </form>
+  </div>
+  

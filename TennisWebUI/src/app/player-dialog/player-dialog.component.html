@@ -1,0 +1,36 @@
+ <div class="dialog-container">
+    <h2 mat-dialog-title class="dialog-title"> <p>🎾 Add New Player</p></h2>
+  
+    <form [formGroup]="playerForm" (ngSubmit)="createPlayer()" class="dialog-content">
+      <mat-form-field appearance="outline">
+        <mat-label>First Name</mat-label>
+        <input matInput [(ngModel)]="newPlayer.firstName" placeholder="First Name" formControlName="firstName" required />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Last Name</mat-label>
+        <input matInput [(ngModel)]="newPlayer.lastName" placeholder="Last Name" formControlName="lastName" required />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Date of Birth</mat-label>
+        <input matInput [(ngModel)]="newPlayer.dateOfBirth" placeholder="Date of Birth" formControlName="dateOfBirth" type="date" />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Skill Level</mat-label>
+        <input matInput [(ngModel)]="newPlayer.level" placeholder="Level" formControlName="level" required />
+      </mat-form-field>
+  
+      <mat-form-field appearance="outline">
+        <mat-label>Email</mat-label>
+        <input matInput [(ngModel)]="newPlayer.email" placeholder="Email" formControlName="email" required />
+      </mat-form-field>
+
+      <div class="dialog-actions">
+        <button mat-button type="button" (click)="close()">Cancel</button>
+        <button mat-raised-button color="primary" type="submit" [disabled]="playerForm.invalid">Save</button>
+      </div>
+    </form>
+  </div>
+  

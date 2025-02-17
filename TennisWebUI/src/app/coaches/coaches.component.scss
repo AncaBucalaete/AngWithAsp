@@ -1,0 +1,56 @@
+@import '../../common.scss';
+
+header {
+  .module-title {
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+      color: $planner-font-color1;
+      letter-spacing: 0.54px;
+      padding-bottom: 10px;
+    }
+
+    .underline {
+      background: $planner-element-bg-color;
+      border-radius: 5px;
+      width: 52px;
+      height: 4px;
+    }
+  }
+}
+
+.grid_coaches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 22px;
+  grid-row-gap: 29px;
+  padding-top: 16px;
+
+}
+
+.grid_coaches>div {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.one_coach:hover {
+  cursor: pointer;
+}
+
+.selected_coach {
+  box-shadow: 0 1px 4px 1px #7575ff;
+}
+
+.coach_details {
+  margin: 20px 0;
+  font-size: large;
+}
+
+.coach_pic {
+  width: 100px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}

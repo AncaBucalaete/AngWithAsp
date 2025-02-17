@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerceAPI.Controllers.ProductController.GetProducts">
+            <summary>
+            Retrieves all products from the database.
+            </summary>
+            <returns>A list of products.</returns>
+        </member>
+        <member name="T:ECommerceAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ECommerceAPI.Migrations.AddProductTable">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.AddProductTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.AddProductTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.AddProductTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:ECommerceAPI.Migrations.CreatePlayer">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.CreatePlayer.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.CreatePlayer.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ECommerceAPI.Migrations.CreatePlayer.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

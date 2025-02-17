@@ -1,0 +1,33 @@
+<div class="container">
+  <header>
+    <div class="module-title">
+      <div class='title'>COACH LIST</div>
+      <div class='underline'></div>
+    </div>
+  </header>
+  <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; justify-content: flex-end;">
+      <div *ngIf="selectedCoach">
+        <button mat-raised-button color="warn" (click)="deleteCoach()">Delete Selected Coach</button>
+      </div>
+      <div style="margin-left: 20px; float: right;">
+        <button mat-flat-button color="primary" (click)='onAddCoach()'>Add
+          New Coach
+        </button>
+      </div>
+    </div>
+    <div class="grid_coaches">
+      <div *ngFor="let coach of coaches" class="one_coach" (click)="onSelect(coach)" [ngClass]="coach === selectedCoach ? 'selected_coach': '' ">
+        <div class="coach_pic">
+          <mat-icon *ngIf="!coach.profileImage">person</mat-icon>
+          <img *ngIf="coach.profileImage" [src]="coach.profileImage" alt="Coach Image" class="coach-img">
+        </div>
+        <div class="coach_details">
+          <div>{{coach.firstName}}</div>
+          <div>{{coach.lastName}}</div>
+          <div>{{coach.email}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
