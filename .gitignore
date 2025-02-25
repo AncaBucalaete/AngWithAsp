@@ -1,0 +1,48 @@
+# Ignore Angular-specific files
+/node_modules/
+/dist/
+/.angular/
+/.vscode/
+
+# Ignore environment files
+/src/environments/environment*.ts
+
+# Ignore build and cache files
+/.npm/
+/.cache/
+
+# Ignore logs
+*.log
+
+# Ignore ASP.NET Core specific files
+bin/
+obj/
+*.db
+*.db-journal
+
+# Ignore user-specific settings
+*.user
+*.suo
+*.vs
+.vscode/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.lock
+
+# Ignore database files
+*.mdf
+*.ldf
+*.sqlite
+
+# Ignore publish and deployment files
+publish/
+wwwroot/
+
+# Ignore IDE and editor-specific files
+/.idea/
+/.vs/
