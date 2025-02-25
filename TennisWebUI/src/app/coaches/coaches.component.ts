@@ -9,11 +9,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { CoachService } from '../coach.service';
 
 @Component({
-  selector: 'app-coaches',
-  standalone: true,
-  imports: [MatButtonModule, CommonModule, MatIconModule],
-  templateUrl: './coaches.component.html',
-  styleUrl: './coaches.component.scss'
+    selector: 'app-coaches',
+    imports: [MatButtonModule, CommonModule, MatIconModule],
+    templateUrl: './coaches.component.html',
+    styleUrl: './coaches.component.scss'
 })
 export class CoachesComponent {
   coaches: Player[] = [];

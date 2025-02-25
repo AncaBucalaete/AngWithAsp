@@ -4,11 +4,10 @@ import { PlayerService } from '../player.service';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-player',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './player.component.html',
-  styleUrl: './player.component.scss'
+    selector: 'app-player',
+    imports: [FormsModule],
+    templateUrl: './player.component.html',
+    styleUrl: './player.component.scss'
 })
 export class PlayerComponent implements OnInit {
   players: Player[] = [];

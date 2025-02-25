@@ -9,12 +9,11 @@ import { PlayerService } from '../player.service';
 import { DatePipe } from '@angular/common';
 
 @Component({
-  selector: 'app-player-dialog',
-  standalone: true,
-  imports: [MatDialogModule, MatButtonModule, FormsModule, MatFormFieldModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule],
-  providers: [DatePipe],
-  templateUrl: './player-dialog.component.html',
-  styleUrl: './player-dialog.component.scss'
+    selector: 'app-player-dialog',
+    imports: [MatDialogModule, MatButtonModule, FormsModule, MatFormFieldModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule],
+    providers: [DatePipe],
+    templateUrl: './player-dialog.component.html',
+    styleUrl: './player-dialog.component.scss'
 })
 export class PlayerDialogComponent {
   players: Player[] = [];

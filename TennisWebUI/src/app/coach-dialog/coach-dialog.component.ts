@@ -10,12 +10,11 @@ import { Player } from '../Player';
 import { CoachService } from '../coach.service';
 
 @Component({
-  selector: 'app-coach-dialog',
-  standalone: true,
-  imports: [CommonModule, MatDialogModule, MatButtonModule, FormsModule, MatFormFieldModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule],
-  providers: [DatePipe],
-  templateUrl: './coach-dialog.component.html',
-  styleUrl: './coach-dialog.component.scss'
+    selector: 'app-coach-dialog',
+    imports: [CommonModule, MatDialogModule, MatButtonModule, FormsModule, MatFormFieldModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule],
+    providers: [DatePipe],
+    templateUrl: './coach-dialog.component.html',
+    styleUrl: './coach-dialog.component.scss'
 })
 export class CoachDialogComponent implements OnInit {
   coachForm: FormGroup;

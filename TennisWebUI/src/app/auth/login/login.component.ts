@@ -2,7 +2,7 @@ import { Component, inject, OnInit } from '@angular/core';
 import { ReactiveFormsModule, UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../auth.service';
 import { Router } from '@angular/router';
-import { Store } from '@ngrx/store';
+import { Store, StoreModule } from '@ngrx/store';
 import { noop, tap } from 'rxjs';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
@@ -13,24 +13,23 @@ import { AuthState } from '../state/auth.state';
 import { login } from '../state/auth.actions';
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [
-    CommonModule,
-    ReactiveFormsModule,
-    MatFormFieldModule,  // ✅ Import Material Form Field
-    MatInputModule,      // ✅ Import Material Input
-    MatButtonModule,     // ✅ Import Material Button
-    MatCardModule
-  ],
-  //providers: [Store],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss'
+    selector: 'app-login',
+    standalone: true,
+    imports: [
+        CommonModule,
+        ReactiveFormsModule,
+        MatFormFieldModule, 
+        MatInputModule, 
+        MatButtonModule, 
+        MatCardModule
+    ],
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.scss'
 })
 export class LoginComponent implements OnInit {
   form: UntypedFormGroup;
 
-  //store = inject(Store);
+  //private store = inject(Store);
   // private store = inject<Store<AuthState>>(Store);
 
   
@@ -38,7 +37,7 @@ export class LoginComponent implements OnInit {
     private fb: UntypedFormBuilder,
     private auth: AuthService,
     private router: Router,
-    private store: Store
+    private readonly store: Store<AuthState>
   ) {
 
     this.form = fb.group({
@@ -62,7 +61,7 @@ export class LoginComponent implements OnInit {
 
           console.log(user);
 
-          //this.store.dispatch(login({ user }));
+          this.store.dispatch(login({ user }));
 
           this.router.navigateByUrl('/players');
 
@@ -72,8 +71,5 @@ export class LoginComponent implements OnInit {
         noop,
         () => alert('Login Failed')
       );
-
-
   }
-
 }

@@ -10,11 +10,10 @@ import { Player } from '../../Player';
 import { MatTableModule } from '@angular/material/table'; 
 
 @Component({
-  selector: 'app-player-list',
-  standalone: true,
-  imports: [FormsModule, CommonModule, MatButtonModule, MatCheckboxModule, MatTableModule],
-  templateUrl: './player-list.component.html',
-  styleUrl: './player-list.component.scss'
+    selector: 'app-player-list',
+    imports: [FormsModule, CommonModule, MatButtonModule, MatCheckboxModule, MatTableModule],
+    templateUrl: './player-list.component.html',
+    styleUrl: './player-list.component.scss'
 })
 export class PlayerListComponent {
   players: Player[] = [];
