@@ -3,7 +3,7 @@ import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
 import { routes } from './app/app.routes';
-import { HttpClientModule } from '@angular/common/http';
+import {} from '@angular/common/http';
 import { importProvidersFrom, isDevMode } from '@angular/core';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatDialogModule } from '@angular/material/dialog';
