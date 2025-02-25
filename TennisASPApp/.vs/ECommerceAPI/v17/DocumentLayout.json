@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\test\\AspWithAngular\\TennisASPApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250203153635_createplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\20250203153635_createplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250131101830_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\20250131101830_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250203153635_createplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\20250203153635_createplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250131151811_addproducttable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,11 +94,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -111,13 +115,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "20250203153635_CreatePlayer.Designer.cs",
               "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250203153635_CreatePlayer.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250203153635_CreatePlayer.Designer.cs",
               "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250203153635_CreatePlayer.Designer.cs",
               "RelativeToolTip": "Migrations\\20250203153635_CreatePlayer.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T08:22:41.606Z",
               "EditorCaption": ""
@@ -130,27 +134,23 @@
               "RelativeDocumentMoniker": "Migrations\\20250131101830_InitialCreate.Designer.cs",
               "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131101830_InitialCreate.Designer.cs",
               "RelativeToolTip": "Migrations\\20250131101830_InitialCreate.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T08:22:26.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Models\\Player.cs",
               "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Models\\Player.cs",
               "RelativeToolTip": "Models\\Player.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T14:45:58.113Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
