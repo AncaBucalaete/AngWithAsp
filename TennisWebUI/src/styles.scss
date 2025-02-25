@@ -12,6 +12,43 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+$dark-primary-text: rgba(black, 0.87);
+
+$light-primary-text: white;
+
+$mat-primary: (
+  50: #fff3e0,
+  100: #ffe0b2,
+  200: #ffcc80,
+  300: #ffb74d,
+  400: #ffa726,
+  500: rgba(255, 152, 0, 0.8),
+  600: #fb8c00,
+  700: #f57c00,
+  800: #ef6c00,
+  900: #e65100,
+  A100: #ffd180,
+  A200: #ffab40,
+  A400: #ff9100,
+  A700: #ff6d00,
+  contrast: (
+    50: rgba(black, 0.87),
+    100: rgba(black, 0.87),
+    200: rgba(black, 0.87),
+    300: rgba(black, 0.87),
+    400: rgba(black, 0.87),
+    500: white,
+    600: white,
+    700: white,
+    800: white,
+    900: white,
+    A100: rgba(black, 0.87),
+    A200: white,
+    A400: white,
+    A700: white
+  )
+);
+
 .custom-class.e-schedule .e-vertical-view .e-all-day-appointment-wrapper .e-appointment,
 .custom-class.e-schedule .e-vertical-view .e-day-wrapper .e-appointment,
 .custom-class.e-schedule .e-month-view .e-appointment {

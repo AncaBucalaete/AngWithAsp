@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "ECommerceAPI.Controllers.CoachController",
+    "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "CreateCoach",
     "RelativePath": "api/Coach",
     "HttpMethod": "POST",
@@ -9,13 +9,13 @@
     "Parameters": [
       {
         "Name": "player",
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.CoachController",
+    "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "GetCoaches",
     "RelativePath": "api/Coach",
     "HttpMethod": "GET",
@@ -35,7 +35,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.Models.Player, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TennisAPI.Models.Player, TennisAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.CoachController",
+    "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "GetCoachesById",
     "RelativePath": "api/Coach/{id}",
     "HttpMethod": "GET",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.CoachController",
+    "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "DeletePlayer",
     "RelativePath": "api/Coach/{id}",
     "HttpMethod": "DELETE",
@@ -88,7 +88,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.CoachController",
+    "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "UpdateCoach",
     "RelativePath": "api/Coach/{id}",
     "HttpMethod": "PUT",
@@ -102,14 +102,14 @@
       },
       {
         "Name": "player",
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.PlayerController",
+    "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "CreatePlayer",
     "RelativePath": "api/Player",
     "HttpMethod": "POST",
@@ -118,13 +118,13 @@
     "Parameters": [
       {
         "Name": "player",
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.PlayerController",
+    "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "GetPlayers",
     "RelativePath": "api/Player",
     "HttpMethod": "GET",
@@ -144,7 +144,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.Models.Player, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TennisAPI.Models.Player, TennisAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -155,7 +155,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.PlayerController",
+    "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "GetPlayer",
     "RelativePath": "api/Player/{id}",
     "HttpMethod": "GET",
@@ -170,7 +170,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -181,7 +181,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.PlayerController",
+    "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "DeletePlayer",
     "RelativePath": "api/Player/{id}",
     "HttpMethod": "DELETE",
@@ -197,7 +197,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.PlayerController",
+    "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "UpdatePlayer",
     "RelativePath": "api/Player/{id}",
     "HttpMethod": "PUT",
@@ -211,14 +211,14 @@
       },
       {
         "Name": "player",
-        "Type": "ECommerceAPI.Models.Player",
+        "Type": "TennisAPI.Models.Player",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductController",
+    "ContainingType": "TennisAPI.Controllers.ProductController",
     "Method": "CreateProduct",
     "RelativePath": "api/Product",
     "HttpMethod": "POST",
@@ -227,14 +227,14 @@
     "Parameters": [
       {
         "Name": "product",
-        "Type": "ECommerceAPI.Models.Product",
+        "Type": "TennisAPI.Models.Product",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductController",
+    "ContainingType": "TennisAPI.Controllers.ProductController",
     "Method": "GetProducts",
     "RelativePath": "api/Product",
     "HttpMethod": "GET",
@@ -243,7 +243,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ECommerceAPI.Models.Product, ECommerceAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TennisAPI.Models.Product, TennisAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -254,7 +254,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductController",
+    "ContainingType": "TennisAPI.Controllers.ProductController",
     "Method": "GetProductById",
     "RelativePath": "api/Product/{id}",
     "HttpMethod": "GET",
@@ -269,7 +269,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ECommerceAPI.Models.Product",
+        "Type": "TennisAPI.Models.Product",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -280,7 +280,7 @@
     ]
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductController",
+    "ContainingType": "TennisAPI.Controllers.ProductController",
     "Method": "UpdateProduct",
     "RelativePath": "api/Product/{id}",
     "HttpMethod": "PUT",
@@ -294,14 +294,14 @@
       },
       {
         "Name": "product",
-        "Type": "ECommerceAPI.Models.Product",
+        "Type": "TennisAPI.Models.Product",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "ECommerceAPI.Controllers.ProductController",
+    "ContainingType": "TennisAPI.Controllers.ProductController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Product/{id}",
     "HttpMethod": "DELETE",

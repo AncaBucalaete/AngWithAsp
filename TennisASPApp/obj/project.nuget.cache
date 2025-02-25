@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/zdZFUBrjKw=",
+  "dgSpecHash": "9OIp2fWlq2I=",
   "success": true,
-  "projectFilePath": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
+  "projectFilePath": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farca\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\farca\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

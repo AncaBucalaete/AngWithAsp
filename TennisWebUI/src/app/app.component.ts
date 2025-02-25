@@ -1,70 +1,76 @@
-import { Component, ViewChild } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { PlayerListComponent } from './components/player-list/player-list.component';
-import { WeekService, MonthService, WorkWeekService, DayService, AgendaService, MonthAgendaService, TimelineViewsService, TimelineMonthService, ScheduleModule, View, GroupModel, EventSettingsModel, ScheduleComponent } from '@syncfusion/ej2-angular-schedule';
-import { resourceData } from './datasource';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { Component, inject, OnInit, ViewChild } from '@angular/core';
+import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router, RouterModule, RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from '@angular/material/list';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { map, Observable } from 'rxjs';
+import { Store } from '@ngrx/store';
+
+import { AuthState } from './auth/state/auth.state';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [SidebarComponent, RouterOutlet, PlayerListComponent, ScheduleModule],
-  providers: [ DayService, WeekService, WorkWeekService, MonthService, AgendaService, MonthAgendaService, TimelineViewsService, TimelineMonthService],
-  templateUrl: './app.component.html', 
+  imports: [CommonModule,
+    MatSidenavModule,  // ✅ Import Sidenav
+    MatToolbarModule,   // ✅ Import Toolbar
+    MatButtonModule,    // ✅ Import Buttons
+    MatIconModule,      // ✅ Import Icons
+    MatListModule,
+    MatProgressSpinnerModule,
+    RouterModule
+  ],
+  templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
-export class AppComponent {
-  title = 'MyAngularApp';
-  @ViewChild('scheduleObj')
-  public scheduleObj?: ScheduleComponent;
+export class AppComponent implements OnInit {
+  loading = true;
+  isLoggedIn$: Observable<boolean> | undefined;
+  isLoggedOut$: Observable<boolean> | undefined;
+  //private store = inject(Store);
+  //private store = inject<Store<AuthState>>(Store);
 
-  public currentView: View = 'Day';
-  public showWeekend: boolean = false;
-  public allowMultipleOwner: Boolean = true;
-  public ownerDataSource: Object[] = [
-    { OwnerText: 'Court1', Id: 1 },
-    { OwnerText: 'Court2', Id: 2 },
-    { OwnerText: 'Court3', Id: 3 }
-  ];
-  public selectedDate: Date = new Date(2018, 3, 1);
-  public views: Array<string> = ['Day', 'Week', 'TimelineWeek', 'TimelineMonth'];
-  public eventSettings: EventSettingsModel = {
-    dataSource: resourceData
-  };
-  public group: GroupModel = {
-    resources: ['Owners']
-  };
+  constructor(private router: Router) {
 
-  public onDataBound(): void {
+  }
 
-    //To get appointments
+  ngOnInit() {
 
-    if (this.scheduleObj?.currentView == 'Day') {
+    this.router.events.subscribe(event => {
+      switch (true) {
+        case event instanceof NavigationStart: {
+          this.loading = true;
+          break;
+        }
 
-      var appointments = document.querySelectorAll('.e-appointment');
-
-    }
-
-    else {
-
-      var appointments = document.querySelectorAll('.e-appointment-indicator');
-
-    }
-
-    for (let i = 0; i < appointments.length; i++) {
-
-
-      let date = appointments[i]?.parentElement?.dataset;
-      if (date) {
-        var event = this.scheduleObj?.getEvents(new Date(+date), undefined, true); //To get event
-
-        if(event) {
-        var categorycolor = event[0]?.['CategoryColor'];
-
-        (appointments[i] as HTMLElement).style.backgroundColor = categorycolor;
+        case event instanceof NavigationEnd:
+        case event instanceof NavigationCancel:
+        case event instanceof NavigationError: {
+          this.loading = false;
+          break;
+        }
+        default: {
+          break;
         }
       }
-    }
+    }); 
+
+/*     this.isLoggedIn$ = this.store
+      .pipe(
+        map(state => !!state["auth"].user)
+      );
+
+    this.isLoggedOut$ = this.store
+      .pipe(
+        map(state => !state["auth"].user)
+      ); */
+  }
+
+  logout() {
 
   }
 }

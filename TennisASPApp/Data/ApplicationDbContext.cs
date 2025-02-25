@@ -1,7 +1,7 @@
-﻿using ECommerceAPI.Models;
+﻿using TennisAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ECommerceAPI.Data
+namespace TennisAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {

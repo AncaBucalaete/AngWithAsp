@@ -7925,11 +7925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
-      "projectName": "ECommerceAPI",
-      "projectPath": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
+      "projectUniqueName": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
+      "projectName": "TennisAPI",
+      "projectPath": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
       "packagesPath": "C:\\Users\\farca\\.nuget\\packages\\",
-      "outputPath": "C:\\test\\AspWithAngular\\ECommerceAPI\\obj\\",
+      "outputPath": "C:\\test\\AspWithAngular\\TennisASPApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,49 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\test\\AspWithAngular\\ECommerceAPI\\",
+  "WorkspaceRootPath": "C:\\test\\AspWithAngular\\TennisASPApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250131101830_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\20250131101830_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250203153635_createplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\20250203153635_createplayer.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250131151811_addproducttable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:migrations\\20250131151811_addproducttable.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:controllers\\coachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\migrations\\20250131151811_addproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:migrations\\20250131151811_addproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\views\\coaches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:views\\coaches\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:ecommerceapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\views\\coaches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:views\\coaches\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\views\\coaches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:views\\coaches\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\views\\coaches\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:views\\coaches\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\views\\coaches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:views\\coaches\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\ecommerceapi\\migrations\\20250131101830_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\tennisapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:tennisapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\tennisapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|TennisAPI.csproj|solutionrelative:tennisapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250131151811_addproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:migrations\\20250131151811_addproducttable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|c:\\test\\aspwithangular\\tennisaspapp\\migrations\\20250131101830_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91D68D0A-7F98-4206-AE39-25428378DE41}|ECommerceAPI.csproj|solutionrelative:migrations\\20250131101830_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,145 +94,283 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:22:48.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250203153635_CreatePlayer.Designer.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250203153635_CreatePlayer.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250203153635_CreatePlayer.Designer.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250203153635_CreatePlayer.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250203153635_CreatePlayer.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:22:41.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250131101830_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131101830_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250131101830_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131101830_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250131101830_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:22:26.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Models\\Player.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Models\\Player.cs",
+              "RelativeToolTip": "Models\\Player.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T14:45:58.113Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "20250131151811_AddProductTable.Designer.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131151811_AddProductTable.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250131151811_AddProductTable.Designer.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131151811_AddProductTable.Designer.cs",
+              "RelativeToolTip": "Migrations\\20250131151811_AddProductTable.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T08:22:35.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coaches\\Edit.cshtml",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Coaches\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T08:21:19.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coaches\\Index.cshtml",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Index.cshtml",
+              "RelativeToolTip": "Views\\Coaches\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T08:18:06.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T09:12:43.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T09:18:22.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "CoachController.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Controllers\\CoachController.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Controllers\\CoachController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoachController.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Controllers\\CoachController.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Controllers\\CoachController.cs",
               "RelativeToolTip": "Controllers\\CoachController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAswBgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-07T09:04:12.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coaches\\Details.cshtml",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Details.cshtml",
+              "RelativeToolTip": "Views\\Coaches\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T08:21:14.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coaches\\Delete.cshtml",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Coaches\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T08:21:09.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Coaches\\Create.cshtml",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Views\\Coaches\\Create.cshtml",
+              "RelativeToolTip": "Views\\Coaches\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-17T08:21:03.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Controllers\\PlayerController.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Controllers\\PlayerController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlayerController.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Controllers\\PlayerController.cs",
               "RelativeToolTip": "Controllers\\PlayerController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAswCwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T14:46:32.466Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T10:19:49.63Z"
+              "WhenOpened": "2025-01-31T10:19:49.63Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:18:22.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:12:43.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "Product.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Models\\Product.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Models\\Product.cs",
               "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T09:10:45.613Z"
+              "WhenOpened": "2025-01-31T09:10:45.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Models\\Player.cs",
-              "RelativeDocumentMoniker": "Models\\Player.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Models\\Player.cs",
-              "RelativeToolTip": "Models\\Player.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T14:45:58.113Z"
+              "DocumentIndex": 17,
+              "Title": "ECommerceAPI",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
+              "RelativeDocumentMoniker": "TennisAPI.csproj",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
+              "RelativeToolTip": "TennisAPI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-17T08:16:40.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-31T09:08:43.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ECommerceAPI.csproj",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
+              "RelativeDocumentMoniker": "TennisAPI.csproj",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\TennisAPI.csproj",
+              "RelativeToolTip": "TennisAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-31T14:37:40.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "20250131151811_AddProductTable.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Migrations\\20250131151811_AddProductTable.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131151811_AddProductTable.cs",
               "RelativeDocumentMoniker": "Migrations\\20250131151811_AddProductTable.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Migrations\\20250131151811_AddProductTable.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131151811_AddProductTable.cs",
               "RelativeToolTip": "Migrations\\20250131151811_AddProductTable.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T15:18:12.071Z"
+              "WhenOpened": "2025-01-31T15:18:12.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "20250131101830_InitialCreate.cs",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\Migrations\\20250131101830_InitialCreate.cs",
+              "DocumentMoniker": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131101830_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20250131101830_InitialCreate.cs",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\Migrations\\20250131101830_InitialCreate.cs",
+              "ToolTip": "C:\\test\\AspWithAngular\\TennisASPApp\\Migrations\\20250131101830_InitialCreate.cs",
               "RelativeToolTip": "Migrations\\20250131101830_InitialCreate.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T10:18:30.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ECommerceAPI.csproj",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
-              "RelativeDocumentMoniker": "ECommerceAPI.csproj",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
-              "RelativeToolTip": "ECommerceAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-31T14:37:40.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\test\\AspWithAngular\\ECommerceAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\test\\AspWithAngular\\ECommerceAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-31T09:08:43.609Z"
+              "WhenOpened": "2025-01-31T10:18:30.513Z",
+              "EditorCaption": ""
             }
           ]
         }

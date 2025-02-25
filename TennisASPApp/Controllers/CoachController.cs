@@ -1,9 +1,9 @@
-﻿using ECommerceAPI.Data;
-using ECommerceAPI.Models;
+﻿using TennisAPI.Data;
+using TennisAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace ECommerceAPI.Controllers
+namespace TennisAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

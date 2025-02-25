@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj": {}
+    "C:\\test\\AspWithAngular\\TennisASPApp\\ECommerceAPI.csproj": {}
   },
   "projects": {
-    "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj": {
+    "C:\\test\\AspWithAngular\\TennisASPApp\\ECommerceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
+        "projectUniqueName": "C:\\test\\AspWithAngular\\TennisASPApp\\ECommerceAPI.csproj",
         "projectName": "ECommerceAPI",
-        "projectPath": "C:\\test\\AspWithAngular\\ECommerceAPI\\ECommerceAPI.csproj",
+        "projectPath": "C:\\test\\AspWithAngular\\TennisASPApp\\ECommerceAPI.csproj",
         "packagesPath": "C:\\Users\\farca\\.nuget\\packages\\",
-        "outputPath": "C:\\test\\AspWithAngular\\ECommerceAPI\\obj\\",
+        "outputPath": "C:\\test\\AspWithAngular\\TennisASPApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

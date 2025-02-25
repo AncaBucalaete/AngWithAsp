@@ -1,4 +1,4 @@
-﻿namespace ECommerceAPI.Models
+﻿namespace TennisAPI.Models
 {
     public class Product
     {
