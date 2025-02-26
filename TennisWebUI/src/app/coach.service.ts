@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/internal/Observable';
 })
 export class CoachService {
 
-    private apiUrl = 'http://localhost:5078/api/Coach';
+    private apiUrl = 'http://localhost:5078/api/coaches';
     // Restful
     // GET api/coaches
     // POST api/coaches

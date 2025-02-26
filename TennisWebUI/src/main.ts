@@ -17,12 +17,14 @@ import { provideEntityData, withEffects } from '@ngrx/data';
 import { entityConfig } from './app/entity-metadata';
 import { provideRouterStore, routerReducer } from '@ngrx/router-store';
 import { StoreRouterConnectingModule } from '@ngrx/router-store'; // Import RouterStoreConnectingModule
+import { AuthGuard } from './app/auth/auth.guard';
 
 
 bootstrapApplication(AppComponent, //appConfig)
   {
     providers: [
       provideRouter(routes),
+      AuthGuard,
       importProvidersFrom(HttpClientModule, MatDialogModule, BrowserAnimationsModule),
 
       // alternative to `StoreModule.forRoot`
@@ -32,9 +34,9 @@ bootstrapApplication(AppComponent, //appConfig)
 
       provideStoreDevtools({ maxAge: 25, logOnly: !isDevMode() }),
       provideEntityData(entityConfig, withEffects()),
-      
+
       // alternative to `StoreRouterConnectingModule.forRoot`
-      provideRouterStore()
+      provideRouterStore()    
     ]
   })
   .catch(err => console.error(err));

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace TennisAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/players")]
     [ApiController]
     public class PlayerController : ControllerBase
     {

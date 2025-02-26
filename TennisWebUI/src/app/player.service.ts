@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class PlayerService {
 
-  private apiUrl = 'http://localhost:5078/api/Player';
+  private apiUrl = 'http://localhost:5078/api/players';
   
   constructor(private http: HttpClient) { }
 

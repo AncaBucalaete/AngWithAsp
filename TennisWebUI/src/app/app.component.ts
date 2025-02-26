@@ -1,6 +1,6 @@
-import { Component, Inject, inject, OnInit, ViewChild } from '@angular/core';
+import { Component, Inject, inject, OnInit, PLATFORM_ID, ViewChild } from '@angular/core';
 import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router, RouterModule, RouterOutlet } from '@angular/router';
-import { CommonModule, DOCUMENT } from '@angular/common';
+import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
@@ -8,11 +8,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { map, Observable } from 'rxjs';
-import { Store, StoreModule } from '@ngrx/store';
+import { select, Store, StoreModule } from '@ngrx/store';
 
 import { AuthState } from './auth/state/auth.state';
 import { AppState } from './auth/state';
 import { AuthActions } from './auth/state/actions-type';
+import { isLoggedIn, isLoggedOut } from './auth/state/auth.selectors';
+import { login } from './auth/state/auth.actions';
 
 @Component({
   selector: 'app-root',
@@ -37,11 +39,17 @@ export class AppComponent implements OnInit {
   //private store = inject<Store<AuthState>>(Store);
   private router = inject(Router);
 
-  constructor(private store: Store<any>) {
+  constructor(private store: Store<any>, @Inject(PLATFORM_ID) private platformId: object) {
 
   }
 
   ngOnInit() {
+
+    const userProfile = isPlatformBrowser(this.platformId) ? localStorage.getItem("user") : null;
+    
+    if (userProfile) {
+      this.store.dispatch(login({ user: JSON.parse(userProfile) }));
+    }
 
     this.router.events.subscribe(event => {
       switch (true) {
@@ -64,16 +72,12 @@ export class AppComponent implements OnInit {
 
     this.isLoggedIn$ = this.store
       .pipe(
-        map(state => {
-          return !!state.auth.user;
-        })
+        select(isLoggedIn)
       );
 
     this.isLoggedOut$ = this.store
       .pipe(
-        map(state => {
-          return !state.auth.user;
-        })
+        select(isLoggedOut)
       );
   }
 

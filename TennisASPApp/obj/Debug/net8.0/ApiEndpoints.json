@@ -2,7 +2,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "CreateCoach",
-    "RelativePath": "api/Coach",
+    "RelativePath": "api/coaches",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "GetCoaches",
-    "RelativePath": "api/Coach",
+    "RelativePath": "api/coaches",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -48,7 +48,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "GetCoachesById",
-    "RelativePath": "api/Coach/{id}",
+    "RelativePath": "api/coaches/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -74,7 +74,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "DeletePlayer",
-    "RelativePath": "api/Coach/{id}",
+    "RelativePath": "api/coaches/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -90,7 +90,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.CoachController",
     "Method": "UpdateCoach",
-    "RelativePath": "api/Coach/{id}",
+    "RelativePath": "api/coaches/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -111,7 +111,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "CreatePlayer",
-    "RelativePath": "api/Player",
+    "RelativePath": "api/players",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -137,7 +137,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "GetPlayers",
-    "RelativePath": "api/Player",
+    "RelativePath": "api/players",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -157,7 +157,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "GetPlayer",
-    "RelativePath": "api/Player/{id}",
+    "RelativePath": "api/players/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -183,7 +183,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "DeletePlayer",
-    "RelativePath": "api/Player/{id}",
+    "RelativePath": "api/players/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -199,7 +199,7 @@
   {
     "ContainingType": "TennisAPI.Controllers.PlayerController",
     "Method": "UpdatePlayer",
-    "RelativePath": "api/Player/{id}",
+    "RelativePath": "api/players/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
